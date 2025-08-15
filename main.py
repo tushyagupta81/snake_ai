@@ -1,5 +1,7 @@
+from ai.agent import train
+
 def main():
-    print("Hello from snake-ai!")
+    train()
 
 
 if __name__ == "__main__":
