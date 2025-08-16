@@ -1,6 +1,7 @@
 import random
 from collections import namedtuple
 from enum import Enum
+from math import sqrt
 
 import numpy as np
 import pygame
@@ -27,7 +28,7 @@ BLUE2 = (0, 100, 255)
 BLACK = (0, 0, 0)
 
 BLOCK_SIZE = 20
-SPEED = 2000
+SPEED = 1e5
 
 
 class SnakeGameAI:
